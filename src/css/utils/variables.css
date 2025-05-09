@@ -1,0 +1,26 @@
+:root {
+  --time: 250ms;
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Error Color */
+  --error-cl: #e74a3b;
+
+  /* Light Theme Colors */
+  --main-bcg: #f0f0f0;
+  --main-cl: #292929;
+  --accent-cl: #3665a7;
+  --second-accent-cl: #669bbc
+  --second-bcg: #669bbc;
+  --third-bcg: #e4e5e6;
+  --hover: #bbbbbb;
+}
+
+[data-theme='dark'] {
+  --main-bcg: #1b1b1b;
+  --main-cl: #f0f0f0;
+  --accent-cl: #00b9ff;
+  --second-accent-cl: #00b9ff;
+  --second-bcg: #02193b;
+  --third-bcg: #2b2d32;
+  --hover: #3b3f45;
+}
